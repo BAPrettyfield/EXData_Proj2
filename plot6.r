@@ -1,4 +1,4 @@
-#  plot4.r
+#  plot6.r
 
 library("ggplot2")
 
