@@ -29,7 +29,7 @@ yearly.totals <- aggregate(Emissions~year, NEI_carbon, sum)
 
 qplot(year, Emissions, data=yearly.totals, 
       geom=c("point", "smooth"), method="loess" ) + 
-  labs(title="US Carbon Emissions over Time")
+  labs(title="US Coal Emissions over Time")
 
 
 #  Now copy the plot to a png file
